@@ -1,0 +1,93 @@
+2021-11-08T07:48:56+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php:140
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php on line 140
+
+2021-11-08T07:50:44+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php:142
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php on line 142
+
+2021-11-08T08:00:19+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php:144
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php on line 144
+
+2021-11-08T13:24:49+00:00 CRITICAL Cannot redeclare get_cat_slug() (previously declared in C:\xampp\htdocs\starshop\wp-content\themes\starshop\product-searchform.php:13) in C:\xampp\htdocs\starshop\wp-content\themes\starshop\product-searchform.php on line 13
+
+2021-11-08T13:57:42+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 236
+
+2021-11-08T14:00:27+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 236
+
+2021-11-08T14:00:30+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 236
+
+2021-11-08T14:03:57+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 236
+
+2021-11-08T14:05:32+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 237
+
+2021-11-08T14:06:17+00:00 CRITICAL Uncaught Error: Array callback has to contain indices 0 and 1 in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): advanced_search_query(Object(WP_Query))
+#1 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-query.php(1784): do_action_ref_array('pre_get_posts', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#5 C:\xampp\htdocs\starshop\wp-includes\class-wp.php(629): WP_Query->query(Array)
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp.php(752): WP->query_posts()
+#7 C:\xampp\htdocs\starshop\wp-includes\functions.php(1291): WP->main('')
+#8 C:\xampp\htdocs\starshop\wp-blog-header.php(16): wp()
+#9 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 236
+
+2021-11-08T14:08:03+00:00 CRITICAL Uncaught Error: Array callback has to contain indices 0 and 1 in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): advanced_search_query(Object(WP_Query))
+#1 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-query.php(1784): do_action_ref_array('pre_get_posts', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#5 C:\xampp\htdocs\starshop\wp-includes\class-wp.php(629): WP_Query->query(Array)
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp.php(752): WP->query_posts()
+#7 C:\xampp\htdocs\starshop\wp-includes\functions.php(1291): WP->main('')
+#8 C:\xampp\htdocs\starshop\wp-blog-header.php(16): wp()
+#9 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 236
+
+2021-11-08T14:10:43+00:00 CRITICAL Uncaught Error: Array callback has to contain indices 0 and 1 in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php:236
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): advanced_search_query(Object(WP_Query))
+#1 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-query.php(1784): do_action_ref_array('pre_get_posts', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-query.php(3465): WP_Query->get_posts()
+#5 C:\xampp\htdocs\starshop\wp-includes\class-wp.php(629): WP_Query->query(Array)
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp.php(752): WP->query_posts()
+#7 C:\xampp\htdocs\starshop\wp-includes\functions.php(1291): WP->main('')
+#8 C:\xampp\htdocs\starshop\wp-blog-header.php(16): wp()
+#9 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 236
+

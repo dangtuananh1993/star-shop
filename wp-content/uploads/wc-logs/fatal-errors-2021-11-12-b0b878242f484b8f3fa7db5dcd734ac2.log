@@ -1,0 +1,67 @@
+2021-11-12T02:11:15+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "woocommerce_ajax_add_to_cart" not found or invalid function name in C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\starshop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_woocomm...')
+#3 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php on line 303
+
+2021-11-12T02:11:47+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "woocommerce_ajax_add_to_cart" not found or invalid function name in C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php:303
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#1 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#2 C:\xampp\htdocs\starshop\wp-admin\admin-ajax.php(187): do_action('wp_ajax_woocomm...')
+#3 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php on line 303
+
+2021-11-12T03:21:40+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-12T03:25:28+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-12T03:37:05+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents_count() in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php:279
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_ajax_add_to_cart('')
+#1 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\starshop\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 279
+
+2021-11-12T03:37:11+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents_count() in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php:279
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_ajax_add_to_cart('')
+#1 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\starshop\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 279
+
+2021-11-12T03:37:14+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::cart_contents_count() in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php:279
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_ajax_add_to_cart('')
+#1 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\starshop\wp-admin\admin-ajax.php(202): do_action('wp_ajax_nopriv_...')
+#4 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\functions.php on line 279
+

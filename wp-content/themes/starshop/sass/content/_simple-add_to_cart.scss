@@ -1,0 +1,92 @@
+.summary {
+    
+    form {
+        display: flex;
+        .parent-simple {
+            height: 50px;
+            border-radius: 25px;
+            border: 1px solid $button-border-color;
+            overflow: hidden;
+            margin-right: 28px;
+            box-sizing: border-box;
+            input {
+                text-align: center;
+                font-size: 20px;
+                &:focus {
+                    outline: none;
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+                -webkit-appearance: none;
+                margin: 0;
+            }
+            input[type=number] {
+                -moz-appearance: textfield;
+            }
+            .simple-qty {
+                height: 50px;
+                border: none;
+                box-sizing: border-box;
+                width: 75px;
+            }
+            .btn-l {
+                height: 50px;
+                border: none;
+                background-color: white;
+                width: 25px;
+                box-sizing: border-box;
+                padding-left: 16px;
+                color: $button-border-color;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .btn-r {
+                height: 50px;
+                border: none;
+                background-color: white;
+                width: 25px;
+                box-sizing: border-box;
+                padding-right: 22px;
+                color: $button-border-color;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .single_add_to_cart_button {
+            height: 50px!important;
+            color: $white-color!important;
+            box-sizing: border-box!important;
+            padding-left: 20px!important;
+            background-color: $color-main!important;
+            border-radius: 25px!important;
+            padding-right: 25px!important;
+        }
+    }
+    .progress-bar {
+        background-color: #F5F5F5;
+        width: 95%;
+        height: 10px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        .progress-bar-percent {
+            color: $white-color;
+            height: 10px;
+            background-color: $color-main;
+            border-radius: 10px;
+        }
+
+    }
+
+    // form {
+    //     .parent {
+    //          .qty {
+    //             height: 50px;
+    //         }
+    //     }
+    // }
+}

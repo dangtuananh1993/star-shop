@@ -1,0 +1,131 @@
+2021-11-09T03:16:51+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-09T04:01:46+00:00 CRITICAL Uncaught Exception: Invalid product. in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php:167
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Product_Data_Store_CPT->read(Object(WC_Product))
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(137): WC_Data_Store->read(Object(WC_Product))
+#2 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\product-image.php(58): WC_Product->__construct('94')
+#3 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1529): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_show_product_images('')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#9 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#12 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(356): WC_Shortcodes::product_page(Array, '', 'product_page')
+#13 [internal function]: do_shortcode_tag(Array)
+#14 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#15 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(555): do_shortcode('[product_page i...')
+#16 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): WC_Template_Loader::unsupported_theme_product_content_filter('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...')
+#17 C:\xampp\htdocs\starshop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...', Array)
+#18 C:\xampp\htdocs\starshop\wp-includes\post-template.php(253): apply_filters('the_content', '\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB\x8Bch...')
+#19 C:\xampp\htdocs\starshop\wp-content\themes\starshop\template-parts\content.php(47): the_content('Continue readin...')
+#20 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#21 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#22 C:\xampp\htdocs\starshop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#23 C:\xampp\htdocs\starshop\wp-content\themes\starshop\single.php(19): get_template_part('template-parts/...', 'product')
+#24 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#25 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#26 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#27 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php on line 167
+
+2021-11-09T06:34:31+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_attachment_ids() on null in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\product-image.php:3
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1529): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_show_product_images('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#8 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#9 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(356): WC_Shortcodes::product_page(Array, '', 'product_page')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#12 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(555): do_shortcode('[product_page i...')
+#13 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): WC_Template_Loader::unsupported_theme_product_content_filter('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...')
+#14 C:\xampp\htdocs\starshop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...', Array)
+#15 C:\xampp\htdocs\starshop\wp-includes\post-template.php(253): apply_filters('the_content', '\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB\x8Bch...')
+#16 C:\xampp\htdocs\starshop\wp-content\themes\starshop\template-parts\content.php(47): the_content('Continue readin...')
+#17 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#19 C:\xampp\htdocs\starshop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#20 C:\xampp\htdocs\starshop\wp-content\themes\starshop\single.php(19): get_template_part('template-parts/...', 'product')
+#21 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\product-image.php on line 3
+
+2021-11-09T06:38:40+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_post_thumbnail_id() in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\product-image.php:3
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1529): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_show_product_images('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#8 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#9 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(356): WC_Shortcodes::product_page(Array, '', 'product_page')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#12 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(555): do_shortcode('[product_page i...')
+#13 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): WC_Template_Loader::unsupported_theme_product_content_filter('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...')
+#14 C:\xampp\htdocs\starshop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...', Array)
+#15 C:\xampp\htdocs\starshop\wp-includes\post-template.php(253): apply_filters('the_content', '\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB\x8Bch...')
+#16 C:\xampp\htdocs\starshop\wp-content\themes\starshop\template-parts\content.php(47): the_content('Continue readin...')
+#17 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#19 C:\xampp\htdocs\starshop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#20 C:\xampp\htdocs\starshop\wp-content\themes\starshop\single.php(19): get_template_part('template-parts/...', 'product')
+#21 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\product-image.php on line 3
+
+2021-11-09T06:41:32+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::get_post_thumbnail_id() in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\product-image.php:4
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1529): wc_get_template('single-product/...')
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_show_product_images('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\content-single-product.php(43): do_action('woocommerce_bef...')
+#6 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#8 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(598): wc_get_template_part('content', 'single-product')
+#9 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(356): WC_Shortcodes::product_page(Array, '', 'product_page')
+#10 [internal function]: do_shortcode_tag(Array)
+#11 C:\xampp\htdocs\starshop\wp-includes\shortcodes.php(228): preg_replace_callback('/\\[(\\[?)(produc...', 'do_shortcode_ta...', '[product_page i...')
+#12 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\class-wc-template-loader.php(555): do_shortcode('[product_page i...')
+#13 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): WC_Template_Loader::unsupported_theme_product_content_filter('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...')
+#14 C:\xampp\htdocs\starshop\wp-includes\plugin.php(189): WP_Hook->apply_filters('<p>\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB...', Array)
+#15 C:\xampp\htdocs\starshop\wp-includes\post-template.php(253): apply_filters('the_content', '\xC4\x90\xC6\xB0\xE1\xBB\xA3c d\xE1\xBB\x8Bch...')
+#16 C:\xampp\htdocs\starshop\wp-content\themes\starshop\template-parts\content.php(47): the_content('Continue readin...')
+#17 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', false, Array)
+#19 C:\xampp\htdocs\starshop\wp-includes\general-template.php(204): locate_template(Array, true, false, Array)
+#20 C:\xampp\htdocs\starshop\wp-content\themes\starshop\single.php(19): get_template_part('template-parts/...', 'product')
+#21 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#22 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#23 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#24 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\product-image.php on line 4
+

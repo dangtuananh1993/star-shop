@@ -1,0 +1,44 @@
+2021-11-21T02:22:46+00:00 CRITICAL Label 'phpcs' already defined in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\rating.php on line 39
+
+2021-11-21T03:22:42+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-21T03:30:04+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-21T12:55:58+00:00 CRITICAL Uncaught Error: Call to a member function visibility_meta_query() on null in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\related.php:54
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2024): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1987): woocommerce_related_products(Array)
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_output_related_products('')
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(73): do_action('woocommerce_aft...')
+#7 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(40): wc_get_template_part('content', 'single-product')
+#10 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#12 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#13 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product\related.php on line 54
+

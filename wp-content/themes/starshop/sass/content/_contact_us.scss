@@ -1,0 +1,74 @@
+.contac-us {
+    .row {
+        justify-content: space-between;
+        .contac-us-left {
+            width: 40.5455%;
+            .title {
+                margin-top: 118px;
+                font-size: 36px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            .description {
+                margin-top: 16px;
+                font-size: 20px;
+                color: $text-footer-color   ;
+            }
+            .form-control {
+                font-size: 20px;
+                color: $breadcrumbs-color;
+                input {
+                    border: 1px solid  $breadcrumbs-color;
+                    border-radius: 0;
+                    width: 100%;
+                    height: 50px;
+                    box-sizing: border-box;
+                    font-size: 20px;
+                    color: $breadcrumbs-color;
+                    padding-left: 15px;
+                    &:focus {
+                        outline: 1px solid $color-main;
+                        border: none;
+                    }
+                    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: $breadcrumbs-color;
+                        opacity: 1; /* Firefox */
+                      }
+                }
+                textarea {
+                    width: 100%;
+                    box-sizing: border-box;
+                    font-size: 20px;
+                    color: $breadcrumbs-color;
+                    padding: 15px;
+                    border: 1px solid  $breadcrumbs-color;
+                    height: 132px;
+                    &:focus {
+                        outline: 1px solid $color-main;
+                        border: none;
+                    }
+                    &::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+                        color: $breadcrumbs-color;
+                        opacity: 1; /* Firefox */
+                      }
+                }
+                .wpcf7-submit {
+                    border: none;
+                    background-color: $color-main;
+                    color: $white-color;
+                    width: 164px;
+                    height: 45px;
+                    border-radius: 25px;
+                    padding-left: 0;
+                }
+            }
+        }
+        .contact-us-right {
+            margin-top: 75px;
+            width: 50.3636%;
+            .contact-us-right-inner {
+                margin-right: -15px;
+            }
+        }
+    }
+}

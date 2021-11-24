@@ -1,0 +1,103 @@
+.slider {
+    .slick-arrow {
+        height: 45px;
+        width: 45px;
+        background-color: $white-color;
+        color: $color-main;
+        border-radius: 50px;
+        // display: flex;
+        // align-items: center;
+        &:hover {
+            background-color: $yellow-price-color;
+        }
+    }
+    .slick-prev {
+        left: 20px;
+        z-index: 1000;
+        left: 87%;
+        top: 90%;
+        &::before {
+            // z-index:100000;
+            font-family: 'Font Awesome 5 Free';
+            content: '\f060';
+            font-weight: 600;
+            color: $color-main;
+            font-size: 15px;
+        }
+        &:hover {
+            background-color: $color-main;
+            &::before {
+                color: $white-color;
+            }
+        }
+    }
+    .slick-next {
+        right: 3.5%;
+        top: 90%;
+        &::before {
+            // z-index:100000;
+            font-family: 'Font Awesome 5 Free';
+            content: '\f061';
+            font-weight: 600;
+            color: $color-main;
+            font-size: 15px;
+        }
+        &:hover {
+            background-color: $color-main;
+            &::before {
+                color: $white-color;
+            }
+        }
+    }
+}
+.outstanding-product-items-slider, .related-product-single-product-page-slider {
+    .slick-arrow {
+        height: 45px;
+        width: 45px;
+        background-color: $header-top-background;
+        color: black;
+        border-radius: 50px;
+        // display: flex;
+        // align-items: center;
+    }
+    .slick-prev {
+        left: 20px;
+        z-index: 1000;
+        left: -0.5%;
+        top: 35%;
+        color: $white-color;
+        &::before {
+            // z-index:100000;
+            font-family: 'Font Awesome 5 Free';
+            content: '\f060';
+            font-weight: 600;
+            color: $color-main;
+            font-size: 15px;
+        }
+        &:hover {
+            background-color: $color-main;
+            &::before {
+                color: $white-color;
+            }
+        }
+    }
+    .slick-next {
+        right: -0.5%;
+        top: 35%;
+        color: $white-color;
+        &::before {
+            // z-index:100000;
+            font-family: 'Font Awesome 5 Free';
+            content: '\f061';
+            font-weight: 600;
+            color: $color-main;
+            font-size: 15px;
+        }
+        &:hover {
+            background-color: $color-main;
+            &::before {
+                color: $white-color;
+            }
+        }
+    }
+}

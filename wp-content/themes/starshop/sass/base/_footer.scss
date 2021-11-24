@@ -1,0 +1,394 @@
+.footer {
+    margin-top: 100px;
+    &-top {
+        &-col {
+            @include col(33.3333%);
+            &-inner {
+                display: flex;
+                align-items: center;
+                background-color: $color-main;
+                height: 167px;
+                .icon {
+                    margin-left: 50px;
+                    padding-right: 33px;
+                    border-right: 1px solid #FFFFFF;;
+                    background-color: $color-main;
+                }
+                .content {
+                    margin-left: 30px;
+                    .title {
+                        color: $white-color;
+                        font-size: 20px;
+                        margin-bottom: 6px;
+                    }
+                    .description {
+                        color: $yellow-price-color;
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+                .mail-us {
+                    .title {
+                        margin-bottom: 15px;
+                    }
+                    .description {
+                        .form-control {
+                            width: 309px;
+                            height: 50px;
+                            border-radius: 25px;
+                            background-color: $white-color;
+                            .invalid {
+                                display: flex;
+                                p {
+                                    display: block;
+                                    margin-block-start: 0;
+                                    margin-block-end: 0;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                    // margin-top: 16px;
+                                }
+                                .wpcf7-validates-as-required, .wpcf7-form-control, .wpcf7-text, .wpcf7-not-valid {
+                                    height: 22px;
+                                    width: 228px;
+                                    margin-top: 15px;
+                                    margin-left: 28px;
+                                    border: none;
+                                    font-size: 19px;
+                                    color: $yellow-price-color;
+                                    outline: none;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                .wpcf7-submit {
+                                    font-family: FontAwesome !important;
+                                    border: none;
+                                    background-color: $white-color;
+                                    width: 46px;
+                                    height: 46px;
+                                    border-radius: 46px;
+                                    margin-top: 2px;
+                                    margin-left: 4px;
+                                    // padding-top: 8px;
+                                    &:hover {
+                                        background-color: $yellow-price-color;
+                                        cursor: pointer;
+                                    }
+                                }
+                                .wpcf7-not-valid-tip {
+                                    color: #dc3232;
+                                    font-size: 1em;
+                                    font-weight: normal;
+                                    display: block;
+                                    margin-left: 29px;
+                                    margin-top: 20px;
+                                    color: white;
+                                    font-size: 16px;
+                                }
+                            }
+                            .submitting {
+                                display: flex;
+                                p {
+                                    display: block;
+                                    margin-block-start: 0;
+                                    margin-block-end: 0;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                    // margin-top: 16px;
+                                }
+                                .wpcf7-validates-as-required, .wpcf7-form-control, .wpcf7-text, .wpcf7-not-valid {
+                                    height: 22px;
+                                    width: 228px;
+                                    margin-top: 15px;
+                                    margin-left: 28px;
+                                    border: none;
+                                    font-size: 19px;
+                                    color: $yellow-price-color;
+                                    outline: none;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                .wpcf7-submit {
+                                    font-family: FontAwesome !important;
+                                    border: none;
+                                    background-color: $white-color;
+                                    width: 46px;
+                                    height: 46px;
+                                    border-radius: 46px;
+                                    margin-top: 2px;
+                                    margin-left: 4px;
+                                    // padding-top: 8px;
+                                    &:hover {
+                                        background-color: $yellow-price-color;
+                                        cursor: pointer;
+                                    }
+                                }
+                                .wpcf7-not-valid-tip {
+                                    color: #dc3232;
+                                    font-size: 1em;
+                                    font-weight: normal;
+                                    display: block;
+                                    margin-left: 29px;
+                                    margin-top: 20px;
+                                    color: white;
+                                    font-size: 16px;
+                                }
+                            }
+                            .failed {
+                                display: flex;
+                                p {
+                                    display: block;
+                                    margin-block-start: 0;
+                                    margin-block-end: 0;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                    // margin-top: 16px;
+                                }
+                                .wpcf7-validates-as-required, .wpcf7-form-control, .wpcf7-text, .wpcf7-not-valid {
+                                    height: 22px;
+                                    width: 228px;
+                                    margin-top: 15px;
+                                    margin-left: 28px;
+                                    border: none;
+                                    font-size: 19px;
+                                    color: $yellow-price-color;
+                                    outline: none;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                .wpcf7-submit {
+                                    font-family: FontAwesome !important;
+                                    border: none;
+                                    background-color: $white-color;
+                                    width: 46px;
+                                    height: 46px;
+                                    border-radius: 46px;
+                                    margin-top: 2px;
+                                    margin-left: 4px;
+                                    // padding-top: 8px;
+                                    &:hover {
+                                        background-color: $yellow-price-color;
+                                        cursor: pointer;
+                                    }
+                                }
+                                .wpcf7-not-valid-tip {
+                                    color: #dc3232;
+                                    font-size: 1em;
+                                    font-weight: normal;
+                                    display: block;
+                                    margin-left: 29px;
+                                    margin-top: 20px;
+                                    color: white;
+                                    font-size: 16px;
+                                }
+                            }
+                            .init {
+                                display: flex;
+                                p {
+                                    display: block;
+                                    margin-block-start: 0;
+                                    margin-block-end: 0;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                    // margin-top: 16px;
+                                }
+                                .wpcf7-validates-as-required, {
+                                    height: 22px;
+                                    width: 228px;
+                                    margin-top: 15px;
+                                    margin-left: 28px;
+                                    border: none;
+                                    font-size: 19px;
+                                    color: $yellow-price-color;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                .wpcf7-submit {
+                                    font-family: FontAwesome !important;
+                                    border: none;
+                                    background-color: $color-main;
+                                    width: 46px;
+                                    height: 46px;
+                                    border-radius: 46px;
+                                    margin-top: 2px;
+                                    margin-left: 4px;
+                                    // padding-top: 8px;
+                                    &:hover {
+                                        background-color: $yellow-price-color;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                            .sent {
+                                display: flex;
+                                p {
+                                    display: block;
+                                    margin-block-start: 0;
+                                    margin-block-end: 0;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                    // margin-top: 16px;
+                                }
+                                .wpcf7-validates-as-required, {
+                                    height: 22px;
+                                    width: 228px;
+                                    margin-top: 15px;
+                                    margin-left: 28px;
+                                    border: none;
+                                    font-size: 19px;
+                                    color: $yellow-price-color;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                .wpcf7-submit {
+                                    font-family: FontAwesome !important;
+                                    border: none;
+                                    background-color: $color-main;
+                                    width: 46px;
+                                    height: 46px;
+                                    border-radius: 46px;
+                                    margin-top: 2px;
+                                    margin-left: 4px;
+                                    // padding-top: 8px;
+                                    &:hover {
+                                        background-color: $yellow-price-color;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                            .resetting {
+                                display: flex;
+                                p {
+                                    display: block;
+                                    margin-block-start: 0;
+                                    margin-block-end: 0;
+                                    margin-inline-start: 0px;
+                                    margin-inline-end: 0px;
+                                    // margin-top: 16px;
+                                }
+                                .wpcf7-validates-as-required, {
+                                    height: 22px;
+                                    width: 228px;
+                                    margin-top: 15px;
+                                    margin-left: 28px;
+                                    border: none;
+                                    font-size: 19px;
+                                    color: $yellow-price-color;
+                                    &:focus {
+                                        outline: none;
+                                    }
+                                }
+                                .wpcf7-submit {
+                                    font-family: FontAwesome !important;
+                                    border: none;
+                                    background-color: $color-main;
+                                    width: 46px;
+                                    height: 46px;
+                                    border-radius: 46px;
+                                    margin-top: 2px;
+                                    margin-left: 4px;
+                                    // padding-top: 8px;
+                                    &:hover {
+                                        background-color: $yellow-price-color;
+                                        cursor: pointer;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &-mid {
+        .footer-mid-col1 {
+            @include col(33.5%);
+        }
+        .footer-mid-col2 {
+            @include col(16.281%);
+            ul {
+                li {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .footer-mid-col3 {
+            @include col(28.3595%);
+            .row-padding-right {
+                // padding-right: 33%;
+            }
+            .col3-col1 {
+                @include col(50%);
+                margin: 0px;
+                margin-bottom: 20px;
+            }
+
+        }
+        .footer-mid-col3-2 {
+            @include col(5.379%);
+        }
+        .footer-mid-col4 {
+            @include col(13.66%);
+            ul {
+                li {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .footer-mid-col {
+            .title {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 21px;
+                text-transform: uppercase;
+                margin-bottom: 25px;
+            }
+            ul {
+                color: $text-footer-color;
+                
+            }
+            .address {
+                margin-bottom: 20px;
+                li {
+                    display: inline-block;
+                }
+            }
+            .hello  {
+                margin-bottom: 20px;
+                li {
+                    display: inline-block;
+                }
+            }
+            .hi {
+                margin-bottom: 20px;
+                li {
+                    display: inline-block;
+                }
+            }
+            .finish {
+                margin-bottom: 20px;
+                li {
+                    display: inline-block;
+                }
+            }
+        }
+    }
+    &-bot {
+        &-inner {
+            border-top: 1px solid $product-code-color;
+            text-align: center;
+            color: $product-code-color;
+            .copyright-line1 {
+                margin-top: 27px;
+                margin-bottom: 10px;
+            }
+            .copyright-line2 {
+                margin-bottom: 18px;
+            }
+        }
+    }
+}

@@ -1,0 +1,183 @@
+2021-11-20T03:49:22+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php:130
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php on line 130
+
+2021-11-20T03:49:26+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php:130
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php on line 130
+
+2021-11-20T03:49:54+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-20T03:51:18+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+
+2021-11-20T03:53:12+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php:130
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php on line 130
+
+2021-11-20T03:54:29+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php:130
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php on line 130
+
+2021-11-20T03:54:46+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(71): get_footer()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T03:55:32+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(71): get_footer()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T03:55:38+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(70): get_footer('shop')
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T03:58:34+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(70): get_footer('shop')
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T03:59:20+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(71): get_footer()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T03:59:47+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(71): get_footer()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T04:01:18+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(71): get_footer()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T04:02:24+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php:119
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once()
+#1 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#3 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(71): get_footer()
+#4 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\footer.php on line 119
+
+2021-11-20T04:37:48+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\starshop\wp-content\themes\starshop\product-searchform.php:15
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2980): wc_get_template('product-searchf...', Array)
+#2 C:\xampp\htdocs\starshop\wp-content\themes\starshop\header.php(70): get_product_search_form()
+#3 C:\xampp\htdocs\starshop\wp-includes\template.php(770): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\starshop\wp-includes\template.php(716): load_template('C:\\xampp\\htdocs...', true, Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#6 C:\xampp\htdocs\starshop\wp-content\themes\starshop\page-home.php(15): get_header()
+#7 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\themes\starshop\product-searchform.php on line 15
+
