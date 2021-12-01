@@ -1,0 +1,184 @@
+2021-11-30T02:05:13+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Variable as array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:27
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 27
+
+2021-11-30T02:06:11+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 27
+
+2021-11-30T02:09:03+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 28
+
+2021-11-30T02:26:30+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:28
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 28
+
+2021-11-30T02:32:30+00:00 CRITICAL Uncaught Error: Call to a member function get_terms() on array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:29
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 29
+
+2021-11-30T02:55:16+00:00 CRITICAL Uncaught Error: Call to a member function get_terms() on array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:79
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 79
+
+2021-11-30T02:55:58+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:79
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 79
+
+2021-11-30T02:56:07+00:00 CRITICAL Uncaught Error: Call to a member function get_datas() on array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:79
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 79
+
+2021-11-30T02:56:42+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:79
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 79
+
+2021-11-30T02:56:54+00:00 CRITICAL Uncaught Error: Call to a member function get_terms() on array in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php:79
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1721): wc_get_template('single-product/...', Array)
+#2 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_variable_add_to_cart('')
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1667): do_action('woocommerce_var...')
+#6 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): woocommerce_template_single_add_to_cart('')
+#7 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#8 C:\xampp\htdocs\starshop\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\content-single-product.php(60): do_action('woocommerce_sin...')
+#10 C:\xampp\htdocs\starshop\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#12 C:\xampp\htdocs\starshop\wp-content\themes\starshop\woocommerce\single-product.php(41): wc_get_template_part('content', 'single-product')
+#13 C:\xampp\htdocs\starshop\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#14 C:\xampp\htdocs\starshop\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#15 C:\xampp\htdocs\starshop\index.php(17): require('C:\\xampp\\htdocs...')
+#16 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variable.php on line 79
+
+2021-11-30T03:16:26+00:00 CRITICAL Uncaught Error: Undefined constant "WP_ENVIRONMENT_TYPE" in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php:90
+Stack trace:
+#0 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(90): constant('WP_ENVIRONMENT_...')
+#1 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php(58): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->make_request('dangtuananh.hvt...')
+#2 C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(109): Automattic\WooCommerce\Admin\Schedulers\MailchimpScheduler->run()
+#3 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\xampp\htdocs\starshop\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\starshop\wp-includes\plugin.php(518): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\starshop\wp-cron.php(138): do_action_ref_array('wc_admin_daily', Array)
+#7 {main}
+  thrown in C:\xampp\htdocs\starshop\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Schedulers\MailchimpScheduler.php on line 90
+

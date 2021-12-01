@@ -1,0 +1,49 @@
+.check-out-flex {
+    display: flex;
+    justify-content: space-between;
+    &-left {
+        width: 66.04%;
+        .col2-set {
+            .col-1 {
+                width: 100%;
+                float: unset;
+                input {
+                    height: 50px;
+                    border: 1px solid $button-border-color;
+                    color: $button-border-color;
+                    padding-left: 20px;
+                }
+                select {
+                    height: 50px;
+                    border: 1px solid $button-border-color;
+                }
+                .select2-selection, .select2-selection--single {
+                    border: 1px solid $button-border-color;
+                    height: 50px;
+                    padding-top: 10px;
+                    color: $button-border-color;
+                }
+            }
+        }
+    }
+    &-right {
+        width: 30.9278%;
+        table {
+            border: none;
+        }
+        div#payment {
+            background: none!important;
+            button {
+                height: 50px;
+                box-sizing: border-box;
+                margin: auto;
+                width: 200px;
+                color: $white-color;
+                background-color: $color-main;
+                float: none!important;
+                display: block;
+                border-radius: 25px;
+            }
+        }
+    }
+}

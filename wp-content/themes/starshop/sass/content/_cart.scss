@@ -1,3 +1,26 @@
+.woocommerce-notices-wrapper {
+    background-color: $header-top-background;
+    .woocommerce-message, .woocommmerce-info, .woocommmerce-error {
+        border: none;
+        background-color: $header-top-background;
+        height: 50px;
+        box-sizing: border-box;
+        max-width: 1680px;
+        width: 100%;
+        margin: auto;
+        padding: 0 15px;
+        padding-top: 15px;
+        padding-left: 40px;
+        box-sizing: border-box;
+        &:before {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+        }
+    }
+}
+
+
 .cart-title {
     margin-top: 116px;
     .cart-title-content {
@@ -130,8 +153,53 @@
         .cart-collaterals {
             .cart_totals {
                 width: 100%;
+                h2 {
+                    background-color: $color-main;
+                    margin: 0;
+                    color: $white-color;
+                    padding-top: 27px;
+                    padding-bottom: 22px;
+                    margin: auto;
+                    justify-content: center;
+                    text-align: center;
+                }
+                .wc-proceed-to-checkout {
+                    a {
+                        display: block;
+                        width: 243px;
+                        margin: auto;
+                        background-color: $color-main;
+                        border-radius: 25px;
+                        height: 50px;
+                        box-sizing: border-box;
+                        padding: 0;
+                        padding-top: 15px;
+                    }
+                }
+                .shop_table {
+                    color: $border-search-color;
+                    .order-total {
+                        th {
+                            color: #0000;
+                        }
+                        td {
+                            color: $color-main;
+                        }
+                    }
+                    tr {
+                        td {
+                            a {
+                                color: $border-search-color;
+                                &:hover {
+                                    color: $color-main;
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }
 }
+
 

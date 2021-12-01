@@ -23,6 +23,13 @@ $attribute_keys  = array_keys( $attributes );
 $variations_json = wp_json_encode( $available_variations );
 $variations_attr = function_exists( 'wc_esc_json' ) ? wc_esc_json( $variations_json ) : _wp_specialchars( $variations_json, ENT_QUOTES, 'UTF-8', true );
 
+echo '<pre>';
+// print_r($attribute_keys);
+// $attribute2 = $product->get_attributes();
+// print_r($attribute2->data);
+echo '</pre>';
+// die();
+
 do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
 <form class="variations_form cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data' data-product_id="<?php echo absint( $product->get_id() ); ?>" data-product_variations="<?php echo $variations_attr; // WPCS: XSS ok. ?>">
@@ -34,6 +41,17 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 		<table class="variations" cellspacing="0">
 			<tbody>
 				<?php foreach ( $attributes as $attribute_name => $options ) : ?>
+					<?php
+					// echo "<pre";
+					// // echo "<br";
+					// print_r($options);
+					// // echo "<br";
+					// print_r($attribute_name);
+					// // print_r($value);
+					// // print_r($term_vals);
+					// echo "</pre";
+					// die();
+					?>
 					<tr>
 						<td class="label"><label for="<?php echo esc_attr( sanitize_title( $attribute_name ) ); ?>"><?php echo wc_attribute_label( $attribute_name ); // WPCS: XSS ok. ?></label></td>
 						<td class="value">
@@ -45,7 +63,39 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 										'product'   => $product,
 									)
 								);
-								echo end( $attribute_keys ) === $attribute_name ? wp_kses_post( apply_filters( 'woocommerce_reset_variations_link', '<a class="reset_variations" href="#">' . esc_html__( 'Clear', 'woocommerce' ) . '</a>' ) ) : '';
+								?>
+								<div id="r"></div>
+								<?php
+								$pdr = $product->get_available_variations();
+								echo "<pre";
+								// print_r($options);
+								// // // echo "<br";
+								// print_r($attribute_name);
+								// // echo "<br";
+								// // print_r($value);
+								// // print_r($term_vals);
+								// print_r($pdr);
+								echo "</pre>";
+								// die();
+								// echo "br";
+								echo "<pre>";
+								$attribute2 = $product->get_attributes();
+								$attribute22 = $attribute2[$attribute_name];
+								$attribute23 = $attribute22->get_terms();
+								$term_id = [];
+								foreach($attribute23 as $attr){
+									$term_id[] = $attr->term_id;
+								}
+								$attr_name = str_replace("pa_", "", $attribute_name);
+								// print_r( $product);
+								// print_r($term_id);
+								foreach($term_id as $t_id){
+									$value = get_field( $attr_name, 'term_' . $t_id );
+									// echo $value;
+								}
+								
+								echo "</pre>";
+								// die();
 							?>
 						</td>
 					</tr>

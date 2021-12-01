@@ -208,3 +208,84 @@
         text-transform: uppercase;
     }
 }
+
+.variations_form {
+    // background-color: blue;
+    flex-wrap: wrap;
+    .variations {
+        // background-color: red;
+        td.label {
+            vertical-align: middle!important;
+        }
+        td.value {
+            select {
+                display: none!important;
+            }
+            label {
+                width: 60px;
+                height: 60px;
+                box-sizing: border-box;
+                // padding: 15px 15px;
+                display: block;
+                text-align: center;
+                line-height: 60px;
+                border: 2px solid $header-top-background;
+                border-radius: 100%;
+                margin-right: 20px;
+                overflow: hidden;
+                font-weight: 600;
+                color: $text-footer-color;
+                :hover {
+                    cursor: pointer;
+                }
+                
+            }
+            label.active {
+                border: 2px solid black;
+            }
+            input {
+                display: none;
+            }
+            .variation-radios {
+                display: flex;
+            }
+        }
+    }
+    .single_variation_wrap {
+        .woocommerce-variation-add-to-cart {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .parent-simple {
+                display: flex;
+            }
+            .quantity {
+                float: none!important;
+                align-items: center;
+                input {
+                    padding-top: 10px;
+                    border: none;
+                    text-align: center;
+                    font-size: 20px;
+                    &:focus {
+                        outline: none;
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                }
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+                input[type=number] {
+                    -moz-appearance: textfield;
+                }
+            }
+            .single_add_to_cart_button {
+                // width: 100%;
+                float: none!important;
+            }
+        }
+    }
+}
